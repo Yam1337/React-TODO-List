@@ -1,3 +1,12 @@
+body {
+  background: rgb(69, 124, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(69, 124, 138, 1) 0%,
+    rgba(44, 108, 105, 1) 50%,
+    rgba(20, 96, 80, 1) 100%
+  );
+}
 .header {
   display: flex;
   align-content: center;
@@ -17,7 +26,7 @@
 .content {
   display: flex;
   flex-direction: row;
-  min-height: 94vh;
+  min-height: 95vh;
   background: rgb(69, 124, 138);
   background: linear-gradient(
     90deg,
@@ -29,14 +38,14 @@
 .box1 {
   display: flex;
   justify-content: center;
-  width: 500px;
+  width: 30vw;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   margin: 15px;
 }
 .box2 {
   display: flex;
-  width: 80vw;
+  width: 70vw;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 25px;
   margin: 15px;
@@ -45,7 +54,7 @@
   display: flex;
   flex-direction: column;
   margin: 15px;
-  font-size: 26px;
+  font-size: 2vw;
 }
 .myButton1 {
   border: solid 1px;
@@ -54,7 +63,7 @@
   align-self: center;
   align-content: center;
   margin: 10px;
-  padding: 10px;
+  padding: 1vw;
   font-size: 24px;
   background-color: rgb(69, 124, 138);
 }
@@ -66,11 +75,9 @@
   align-content: center;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 10px;
+  padding: 1vw;
   font-size: 24px;
   background-color: rgb(170, 55, 55);
-  height: 50px;
-  width: 50px;
 }
 .myButton1:focus {
   outline: none;
@@ -85,7 +92,7 @@
   transform: scale(0.85);
 }
 .myInput {
-  font-size: 26px;
+  font-size: 1vw;
 }
 .myInput:focus {
   outline: none;
